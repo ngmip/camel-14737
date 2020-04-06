@@ -1,0 +1,11 @@
+fileComponentUri: # put any file:// uri where there are .gz text files file://C:/tmp/14737
+camel:
+  springboot:
+    main-run-controller: true
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    hikari:
+      driver-class-name: org.h2.Driver
+      password: password
+      username: sa
